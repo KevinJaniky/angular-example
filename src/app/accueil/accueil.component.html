@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let test of data$">
+        <a routerLink="/pages/{{ test._source.slug  }}">{{ test._source.title  }}</a>
+    </li>
+</ul>

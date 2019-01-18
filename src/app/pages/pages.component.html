@@ -1,0 +1,7 @@
+<div>
+    <p *ngFor="let item of data$">
+        {{ item._source.title }}
+        {{ item._source.resume }}
+        <span [innerHTML]="item._source.body"></span>
+    </p>
+</div>
